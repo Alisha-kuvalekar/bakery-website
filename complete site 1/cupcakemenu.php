@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    *{
+    box-sizing:border-box;
+    }
+    
+     .header {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    
+    }
+    
+    h1{
+        font-size:300%;
+        color:black;
+        text-align:center; 
+        font-style:italic;   
+    }
+    .parallax {
+    /* The image used */
+    background-image: url("cupcakecover.jpg");
+    /* Set a specific height */
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+     ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   background-color: black;
+    }
+    
+    li {
+    display: inline;
+    }
+    li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    li a:hover {
+    background-color: gray;
+    color: white;
+    }
+     .active{
+        background-color:gray;
+        color:white; 
+     }
+     .column{
+    float:left;
+    width:33.3%;
+    padding:15px;
+    display:table-cell;
+    position:relative;     
+     }
+     
+     .row:after{
+    content:"";
+    display:table;
+    clear: both;
+    }
+     
+     .image{
+     width:100%;
+     height:500px;     
+      display: block;
+      opacity: 1;
+      backface-visibility: hidden;
+     }
+     
+     .middle {
+  opacity:0;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  text-align: center;
+  padding: 25px;
+  
+  }
+     
+     
+     .column:hover .image{
+         opacity: 0.3;
+     }
+     
+     .column:hover .middle{
+        opacity: 1;
+     }
+     .text{
+       color:white;
+       font-size:30px;
+       background-color: black;
+       padding: 10px;
+     }
+     .footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    } 
+   .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  display: inline-table;
+  }
+	.fa:hover {
+    background-color: white;
+    color: black;
+	}
+	.fa-facebook {
+  background: #3B5998;
+  color: white;
+	}
+	.fa-twitter{
+   background: #55ACEE;
+  	color: white;
+	}
+	.fa-instagram {
+  background:red;
+  color: white;
+	}
+	.fa-pinterest {
+  background: #cb2027;
+  color: white;
+	}
+	
+ .price {
+  color: blue;;
+  float: right;
+  font-size: 25px;
+}
+</style>
+<title>xyz bake shop</title>
+</head>
+<body>
+    <div class="header">
+        <h1>XYZ BAKE SHOP</h1>
+    </div>
+    
+    <div>
+    <ul>
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#x">X</a></li>
+    <li><a href="#y">Y</a></li>
+    <li><a class="active" href="#cup">BUY ONLINE</a></li>
+    <li><a href="#contact">CONTACT US</a></li>
+   </ul>
+
+    </div>
+    <div class="parallax"></div>
+    <div>
+   
+    <h1 style="color: mediumaquamarine;font-size: 60px;"><i>CUPCAKES<br>...</h1>
+    
+         <div class="row">
+            <div class="column">
+                <img src="1cup.jpg"    alt="1stimg" class="image">
+                <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>    
+                </div>
+                <p><p class="price"> Rs.55</p><b>CHOCOLATE BUTTERSCOTCH CUPCAKE<br>(chocolate cupcake with butterscotch filling and chocolate frosting)</p>                                           
+            </div>         
+           <div class="column">
+              <img src="2cup.jpg" alt="2ndimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div>
+              <p><p class="price"> Rs.50</p><b>LEMON CUPCAKE<br>(lemon cupcake with lemon frosting)</p>
+           </div>
+           <div class="column">
+                <img src="3cup.jpg" alt="3rdimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div> 
+              <p><p class="price"> Rs.45</p><b>STRAWBERRY CUPCAKE<br>(Strawberry cupcake with strawberry filling and frosting)</p>          
+            </div>
+         
+         </div>
+        <div class="row">
+            <div class="column">
+                <img src="4cup.jpg" alt="4thimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div> 
+              <p><p class="price"> Rs.60</p><b>CLASSIC RAINBOW CUPCAKE<br>(Rainbow cupcake with buttercream frosting</p>               
+            </div>         
+           <div class="column">
+               <img src="5cup.jpg" alt="5thimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div>
+              <p><p class="price"> Rs.50</p><b>VANILLA CUPCAKE<br>(Vanilla cupcake with Buttercream frosting)</p>
+           </div>
+           <div class="column">
+                  <img src="6cup.jpg" alt="6thimgimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div> 
+              <p><p class="price"> Rs.45</p><b>PINEAPPLE CUPCAKE<br>(Pineapple cupcake with buttercream frosting)</p>
+           </div>
+         
+         </div>
+        <div class="row">
+            <div class="column">
+                <img src="7cup.jpg" alt="2ndimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div>                
+            <p><p class="price"> Rs.55</p><b>SALTED CARAMEL CUPCAKE<br>(Caramel cupcake with salted caramel frosting)</p>
+            </div>         
+           <div class="column">
+               <img src="8cup.jpg" alt="2ndimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div>
+           		<p><p class="price"> Rs.50</p><b>LEMON MERINGUE CUPCAKE<br>(Lemon cupcake with meringue frosting on top)</p>
+           </div>
+           <div class="column">
+               <img src="9cup.jpg" alt="2ndimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div>
+              <p><p class="price"> Rs.65</p><b>COCONUT CUPCAKE<br>(Coconut cupcake with coconut frosting and coconut shreds on top)</p>
+           </div>
+         
+         </div>
+    <div class="row">
+            <div class="column">
+                <img src="10cup.jpg" alt="2ndimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div>                
+            <p><p class="price"> Rs.60</p><b>BLUEBERRY CARAMEL CUPCAKE<br>(Blueberry cupcake with blueberry frosting)</p>
+            </div>         
+           <div class="column">
+               <img src="11cup.jpg" alt="2ndimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div>
+           		<p><p class="price"> Rs.45</p><b>CARROT CUPCAKE<br>(Carrot cupcake with cream cheese frosting on top)</p>
+           </div>
+           <div class="column">
+               <img src="12cup.jpg" alt="2ndimg" class="image">
+              <div class="middle">
+                    <div class="text"><a href="#" style = "text-decoration: none; color: white;">Buy now</a></div>              
+              
+              </div>
+              <p><p class="price"> Rs.65</p><b>OREO CUPCAKE<br>(oreo flavoured cupcake with chocolate vanilla frosting on top)</p>
+           </div>
+         
+         </div>
+    
+    
+    </div>
+<div class="footer">
+		<p style="font-style: normal;">WORKING HOURS:8 AM To 8 PM<br>Email:asgah@gmail.com</p>
+		<div>
+		<ul>
+			<li><a href="#" class="fa fa-facebook"></a></li>
+			<li><a href="#" class="fa fa-twitter"></a></li>
+			<li><a href="#" class="fa fa-instagram"></a></li>
+			<li><a href="#" class="fa fa-pinterest"></a></li>
+		</ul>
+		</div>
+		
+</div>
+</body>
+</html>
